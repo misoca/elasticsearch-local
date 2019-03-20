@@ -1,4 +1,4 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:5.3.3
+FROM docker.elastic.co/elasticsearch/elasticsearch:5.6.16
 
 # プラグインのインストール
 RUN elasticsearch-plugin install analysis-icu
